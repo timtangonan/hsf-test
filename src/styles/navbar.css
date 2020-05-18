@@ -1,0 +1,59 @@
+.navbar {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #4F4D6A;
+    padding-top: 1em;
+}
+
+.company-logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.company-logo span {
+    font-style: italic;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: "PTSans";
+    width: 100%;
+}
+
+.nav-item {
+    font-size: .6rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-item + .nav-item {
+    margin-left: 1em;
+}
+
+@media (min-width: 720px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2.5em;
+    }
+
+    .company-logo {
+        margin-bottom: 0;
+    }
+
+    .nav-menu {
+        justify-content: flex-end;
+    }
+
+    .nav-item {
+        font-size: .75rem;
+    }
+
+    .nav-item + .nav-item {
+        margin-left: 2.55em;
+    }
+}

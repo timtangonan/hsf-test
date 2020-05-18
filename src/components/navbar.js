@@ -1,17 +1,21 @@
 import React from "react"
 
+import "../styles/navbar.css"
+
 const Navbar = () => {
     return (
-        <navbar>
-            <h1><span>b</span>anx</h1>
-            <ul>
-                <li>design</li>
-                <li>web design</li>
-                <li>graphic design</li>
-                <li>print design</li>
-                <li>video design</li>
-            </ul>
-        </navbar>
+        <div className="container">
+            <navbar className="navbar">
+                <h1 className="company-logo"><span>b</span>anx</h1>
+                <ul className="nav-menu">
+                    <li className="nav-item">design</li>
+                    <li className="nav-item">web design</li>
+                    <li className="nav-item">graphic design</li>
+                    <li className="nav-item">print design</li>
+                    <li className="nav-item">video design</li>
+                </ul>
+            </navbar>
+        </div>
     )
 }
 

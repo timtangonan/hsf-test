@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Georgia";
+    src: url('../assets/fonts/georgia.ttf');
+}
+
+@font-face {
+    font-family: "GeorgiaItalic";
+    src: url('../assets/fonts/georgiai.ttf');
+}
+
+@font-face {
+    font-family: "GeorgiaBold";
+    src: url('../assets/fonts/georgiab.ttf');
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url('../assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../assets/fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "PTSans";
+    src: url('../assets/fonts/PTSans-Regular.ttf');
+}

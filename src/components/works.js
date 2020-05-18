@@ -16,22 +16,22 @@ const Works = () => {
             </div>
             <div>
                 <div className="work-category">
-                    <img src={desireImage}/>
+                    <img src={desireImage} alt="desire"/>
                     <h3>desire</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros ligula, lacinia quis euismod in, dignissim at neque. Aliquam quis consectetur magna.</p>
                 </div>
                 <div className="work-category">
-                    <img src={aspirationImage}/>
+                    <img src={aspirationImage} alt="aspiration"/>
                     <h3>aspiration</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros ligula, lacinia quis euismod in, dignissim at neque. Aliquam quis consectetur magna.</p>
                 </div>
                 <div className="work-category">
-                    <img src={designImage}/>
+                    <img src={designImage} alt="design"/>
                     <h3>design</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros ligula, lacinia quis euismod in, dignissim at neque. Aliquam quis consectetur magna.</p>
                 </div>
                 <div className="work-category">
-                    <img src={lustImage}/>
+                    <img src={lustImage} alt="lust"/>
                     <h3>Lust</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros ligula, lacinia quis euismod in, dignissim at neque. Aliquam quis consectetur magna.</p>
                 </div>

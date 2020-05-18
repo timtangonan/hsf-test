@@ -1,0 +1,39 @@
+.hero {
+    text-align: center;
+    color: #4F4D6A;
+    width: 100%;
+    margin-top: 6em;
+}
+
+.hero-intro {
+    font-family: 'GeorgiaItalic', Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero-intro::before, .hero-intro::after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.hero-intro::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.hero-intro::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.hero-brand {
+    font-family: 'GeorgiaBold', Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
