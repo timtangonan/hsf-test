@@ -8,11 +8,11 @@ const Navbar = () => {
             <navbar className="navbar">
                 <h1 className="company-logo"><span>b</span>anx</h1>
                 <ul className="nav-menu">
-                    <li className="nav-item">design</li>
-                    <li className="nav-item">web design</li>
-                    <li className="nav-item">graphic design</li>
-                    <li className="nav-item">print design</li>
-                    <li className="nav-item">video design</li>
+                    <li className="nav-item"><a href="#">design</a></li>
+                    <li className="nav-item"><a href="#">web design</a></li>
+                    <li className="nav-item"><a href="#">graphic design</a></li>
+                    <li className="nav-item"><a href="#">print design</a></li>
+                    <li className="nav-item"><a href="#">video design</a></li>
                 </ul>
             </navbar>
         </div>

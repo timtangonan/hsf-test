@@ -27,6 +27,12 @@
     font-size: .6rem;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-item + .nav-item {

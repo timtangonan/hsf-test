@@ -9,12 +9,14 @@ const Hero = () => {
         <section>
             <div className="container">
                 <div className="hero">
-                    <div>
+                    <div className="hero-border">
                         <p className="hero-intro">we are</p>
                         <h1 className="hero-brand">studio banx</h1>
-                        <p>a creative web & print digital agency built on method and creative juices</p>
+                        <p className="hero-text">a creative web & print digital agency built on method and creative juices</p>
                     </div>
-                    <CTAButtons />
+                    <div className="hero-btn">
+                        <CTAButtons />
+                    </div>
                 </div>
             </div>
         </section>
