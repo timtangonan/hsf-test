@@ -1,11 +1,13 @@
 import React from "react"
 
+import "../styles/ctabuttons.css"
+
 const CTAButtons = () => {
     return (
         <div>
-            <div style={{display: 'flex', justifyContent: 'center'}}>
-                <button style={{margin: '.2em 1em'}}>see our work</button>
-                <button style={{margin: '.2em 1em'}}>meet the team</button>
+            <div className="cta-btn" >
+                <button className="btn work">see our work</button>
+                <button className="btn team">meet the team</button>
             </div>
         </div>
 

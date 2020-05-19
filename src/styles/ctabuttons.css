@@ -1,0 +1,33 @@
+.cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    padding: .5em;
+    border-radius: 2em;
+    width: 12em;
+    margin: 1em;
+    font-family: 'GeorgiaItalic', Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #4F4D6A;
+    border: none;
+    font-size: .8rem;
+}
+
+.work {
+    text-transform: capitalize;
+}
+
+@media (min-width: 720px) {
+    .cta-btn {
+        flex-direction: row;
+    }
+
+    .btn {
+        font-size: .8rem;
+    }
+}
