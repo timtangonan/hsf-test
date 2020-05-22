@@ -20,17 +20,17 @@ const Works = () => {
                 <div className="work-list">
                     <div className="work-category">
                         <img src={desireImage} alt="desire"/>
-                        <h3>desire</h3>
+                        <h3>Desire</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros ligula, lacinia quis euismod in, dignissim at neque. Aliquam quis consectetur magna.</p>
                     </div>
                     <div className="work-category">
                         <img src={aspirationImage} alt="aspiration"/>
-                        <h3>aspiration</h3>
+                        <h3>Aspiration</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros ligula, lacinia quis euismod in, dignissim at neque. Aliquam quis consectetur magna.</p>
                     </div>
                     <div className="work-category">
                         <img src={designImage} alt="design"/>
-                        <h3>design</h3>
+                        <h3>Design</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eros ligula, lacinia quis euismod in, dignissim at neque. Aliquam quis consectetur magna.</p>
                     </div>
                     <div className="work-category">
