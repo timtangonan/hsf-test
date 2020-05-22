@@ -1,7 +1,7 @@
 /* breakpoints: 321, 721 */
 /* container width: 960 */
 /* primary color: #4F4D6A */
-/* secondary color: #9d8696 */
+/* secondary color: #9d8696 light: #cabbc4 */
 /* works bg: #EBEBEB */
 /* footer bg: #505050 */
 
@@ -16,5 +16,5 @@
 .nav-hero {
     background: linear-gradient(90deg, rgba(79, 77, 106, 0.1) 20%, rgba(157, 134, 150, 0.5) 80%), linear-gradient(rgba(255, 255, 255, 0.8) 10%, rgba(79, 77, 106, 0.4) 80%), url('../assets/bgimg.jpg');
     background-size: cover;
-    min-height: 100vh;
+    min-height: 113vh;
 }

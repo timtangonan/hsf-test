@@ -1,0 +1,55 @@
+.works-main {
+    font-family: 'GeorgiaBold', Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2em;
+}
+
+.works-intro {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4F4D6A;
+}
+
+.works-intro p {
+    font-style: italic;
+}
+
+.works-intro h2 {
+    margin-top: -0.1em;
+    letter-spacing: -0.15rem;
+    font-size: 2rem;
+}
+
+.work-category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 4em 2em;
+}
+
+.work-category > img {
+    border-radius: 50%;
+    width: 75%;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.work-category > h3 {
+    display: block;
+    margin-top: 3em;
+}
+
+@media (min-width: 720px) {
+    .works-main {
+        margin-top: 4em;
+    }
+
+    .works-intro h2 {
+        font-size: 4.5rem;
+        margin-top: -0.1em;
+        letter-spacing: -0.18rem;
+    }
+
+    .work-list {
+        display: flex;
+    }
+}
