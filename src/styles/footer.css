@@ -1,0 +1,33 @@
+.footer {
+    background-color: #505050;
+    color: #fff;
+    padding: 2em 0.5em 3em;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    font-family: 'GeorgiaItalic', Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-text {
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+}
+
+.copyright {
+    padding: 2em 0;
+}
+
+@media (min-width: 720px) {
+    .footer-content {
+        flex-direction: row;
+    }
+
+    .footer-contact {
+        flex-basis: 55%;
+    }
+}

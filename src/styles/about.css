@@ -1,0 +1,26 @@
+.about {
+    font-family: 'GeorgiaItalic', Georgia, 'Times New Roman', Times, serif;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin: 0 .8em;
+}
+
+.awesome-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-details {
+    font-size: 0.75rem;
+}
+
+@media (min-width: 720px) {
+    .about {
+        padding-top: 7em;
+        padding-bottom: 5em;
+    }
+
+    .awesome-list {
+        flex-direction: row;
+    }
+}

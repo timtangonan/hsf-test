@@ -3,16 +3,40 @@
     padding-bottom: 3em;
     color: #4F4D6A;
     background-color: #ebebeb;
+    /* background-color: lightcoral; */
 }
 
 .works-intro {
     font-family: 'GeorgiaBold', Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #fff;
 }
 
-.works-intro p {
+.works-intro-text {
     font-style: italic;
+    overflow: hidden;
+}
+
+.works-intro-text::before, .works-intro-text::after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.works-intro-text::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.works-intro-text::after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 
 .works-intro h2 {
@@ -58,7 +82,6 @@
 @media (min-width: 720px) {
     .works-main {
         padding-top: 3em;
-        background-color: #ebebeb;
     }
 
     .works-intro h2 {
@@ -73,11 +96,11 @@
 
     .work-category {
         width: 100%;
-        margin: 4em 0.4em 4em;
+        margin: 2.5em 0.4em 4em;
     }
 
     .img-container {
-        width: 90%;
+        width: 88%;
     }
 
     .work-category img {

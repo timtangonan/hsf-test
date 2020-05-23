@@ -14,7 +14,7 @@ const Works = () => {
         <section className="works-main">
             <div className="container">
                 <div className="works-intro">
-                    <p>check out</p>
+                    <p className="works-intro-text">check out</p>
                     <h2>our worx</h2>
                 </div>
                 <div className="work-list">
