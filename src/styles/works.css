@@ -30,7 +30,7 @@
 
 .work-category > img {
     border-radius: 50%;
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
     align-self: center;
 }
@@ -38,6 +38,12 @@
 .work-category > h3 {
     display: block;
     margin-top: 2em;
+}
+
+.work-category > p {
+    margin: .8em auto;
+    font-size: 0.75rem;
+    line-height: 185%;
 }
 
 @media (min-width: 720px) {
@@ -53,19 +59,20 @@
 
     .work-list {
         display: flex;
+        /* margin-bottom: 0.5em; */
     }
 
     .work-category {
         width: 100%;
-        margin: 3em 1em;
+        margin: 5em 0.4em 4em;
     }
 
     .work-category > img {
-        width: 100%;
+        width: 75%;
         object-fit: cover;
     }
 
     .work-category > h3 {
-        margin-top: 5.25em;
+        margin-top: 2.3em;
     }
 }
