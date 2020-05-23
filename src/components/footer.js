@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
                 <div className="footer-content">
-                    <div>
+                    <div className="footer-awesome">
                         <h3 className="footer-title">What makes us so awesome</h3>
                         <p className="footer-text">Nulla ut eleifend diam. In feugiat, lacus vitae porttitor lacinia, metus lectus interdum elit, at consectetur orci dolor et metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilla Curae. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
                     </div>

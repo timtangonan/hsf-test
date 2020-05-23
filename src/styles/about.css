@@ -1,8 +1,13 @@
 .about {
     font-family: 'GeorgiaItalic', Georgia, 'Times New Roman', Times, serif;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    margin: 0 .8em;
+    padding: 2em 0;
+    margin: 0 0.6em;
+    color: #4F4D6A;
+}
+
+.about-text {
+    margin-bottom: 0.6em;
+    letter-spacing: 0.14rem;
 }
 
 .awesome-list {
@@ -10,17 +15,38 @@
     flex-direction: column;
 }
 
+.awesome-list-item + .awesome-list-item {
+    margin-top: 1.5em;
+}
+
 .about-details {
     font-size: 0.75rem;
+    line-height: 185%;
+    padding-bottom: 1em;
+}
+
+.btn-more {
+    padding: 0.3em 1.5em;
+    background-color: #4F4D6A;
+    border: none;
+    border-radius: 0.3em;
+    font-family: 'GeorgiaItalic', Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    color: #fff;
 }
 
 @media (min-width: 720px) {
     .about {
         padding-top: 7em;
-        padding-bottom: 5em;
+        padding-bottom: 5.4em;
     }
 
     .awesome-list {
         flex-direction: row;
+    }
+
+    .awesome-list-item + .awesome-list-item {
+        margin-top: 0;
+        margin-left: 1.3em;
     }
 }

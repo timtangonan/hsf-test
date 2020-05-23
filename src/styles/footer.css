@@ -1,7 +1,7 @@
 .footer {
     background-color: #505050;
     color: #fff;
-    padding: 2em 0.5em 3em;
+    padding: 2em 1em 3em;
 }
 
 .footer-content {
@@ -15,7 +15,9 @@
 
 .footer-text {
     font-family: 'OpenSans', Arial, Helvetica, sans-serif;
-    font-size: 0.5rem;
+    padding: 1.4em 0;
+    font-size: 0.7rem;
+    line-height: 185%;
 }
 
 .copyright {
@@ -23,11 +25,20 @@
 }
 
 @media (min-width: 720px) {
+    .footer {
+        margin-left: 1em;
+    }
+
     .footer-content {
         flex-direction: row;
+        padding-top: 1.2em;
+    }
+
+    .footer-awesome {
+        margin-right: 1em;
     }
 
     .footer-contact {
-        flex-basis: 55%;
+        flex-basis: 80%;
     }
 }

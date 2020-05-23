@@ -66,7 +66,7 @@
     }
 
     .hero-brand {
-        font-size: 7.5rem;
+        font-size: 4.5rem;
         letter-spacing: -.125rem;
         white-space: nowrap;
     }
@@ -74,5 +74,11 @@
     .hero-text {
         font-size: 1.1rem;
         letter-spacing: .025rem;
+    }
+}
+
+@media (min-width: 1040px) {
+    .hero-brand {
+        font-size: 7.5rem;
     }
 }
