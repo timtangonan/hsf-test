@@ -25,10 +25,6 @@
 }
 
 @media (min-width: 720px) {
-    .footer {
-        margin-left: 1em;
-    }
-
     .footer-content {
         flex-direction: row;
         padding-top: 1.2em;
