@@ -6,11 +6,14 @@ import Works from "../components/works"
 import About from "../components/about"
 import Footer from "../components/footer"
 
+import Test from "../components/test"
+
 import "../styles/index.css"
 
 export default () => {
     return(
         <div className="main">
+
             <div className="nav-hero">
                 <Navbar />
                 <Hero />
@@ -18,6 +21,7 @@ export default () => {
             <Works />
             <About />
             <Footer />
+            <Test />
         </div>
     )
 }
