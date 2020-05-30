@@ -6,8 +6,6 @@ import Works from "../components/works"
 import About from "../components/about"
 import Footer from "../components/footer"
 
-import Test from "../components/test"
-
 import "../styles/index.css"
 
 export default () => {
@@ -21,7 +19,6 @@ export default () => {
             <Works />
             <About />
             <Footer />
-            <Test />
         </div>
     )
 }
